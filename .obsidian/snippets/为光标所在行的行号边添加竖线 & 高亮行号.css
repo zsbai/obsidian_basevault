@@ -1,0 +1,21 @@
+
+.theme-light {
+  .markdown-source-view.mod-cm6 .cm-lineNumbers .cm-gutterElement.cm-active {
+    color: #c34044 !important; /* 高亮行号 */
+    font-size: 14px; /* 光标所在行行号字号 */
+    font-weight: bold; /* 光标所在行行号 */
+    border-left: 2px solid #da474b; /* 添加竖线 */
+  }
+
+}
+
+.theme-dark {
+  .markdown-source-view.mod-cm6 .cm-lineNumbers .cm-gutterElement.cm-active {
+    color: #ffbc32 !important; /* 高亮行号 */
+    font-size: 14px; /* 光标所在行行号字号 */
+    font-weight: bold; /* 光标所在行行号 */
+    border-left: 2px solid #ffbc32; /* 添加竖线 */
+  }
+
+}
+

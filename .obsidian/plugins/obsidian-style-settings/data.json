@@ -1,0 +1,15 @@
+{
+  "shimmering-focus@@image-size": 100,
+  "shimmering-focus@@normal-tab-bar": true,
+  "Editor@@seamless-embeds": false,
+  "Editor@@h1-size": "2em",
+  "Components@@CTA-BTN-enable": false,
+  "Components@@file-names-untrim": true,
+  "Components@@folder-font-bold": true,
+  "Components@@file-icon-remove": false,
+  "Components@@colorful-folder": true,
+  "Components@@outline-enhanced": false,
+  "Components@@vault-profile-autohide": true,
+  "Editor@@h2-size": "1.625em",
+  "Editor@@h2-divider-on": true
+}

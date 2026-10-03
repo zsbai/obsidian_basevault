@@ -1,0 +1,14 @@
+.DS_Store
+
+# 工作区状态会记录最近打开的笔记和附件路径
+/.obsidian/workspace.json
+/.obsidian/workspace-mobile.json
+
+# Copilot 生成的笔记索引
+/.obsidian/copilot-index-*.json
+
+# Sensitive plugins
+/.obsidian/plugins/fast-note-sync/
+
+# 图片对齐记录中包含具体的笔记路径
+/.obsidian/plugins/image-converter/image-converter-image-alignments.json

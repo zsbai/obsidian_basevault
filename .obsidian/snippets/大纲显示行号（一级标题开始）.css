@@ -1,0 +1,21 @@
+/* https://github.com/platon-ivanov/obsidian-visually-numbered-headings/issues/16 */
+.workspace-leaf-content[data-type="outline"] {
+  counter-reset: rootCounter;
+
+  .tree-item .tree-item-self .tree-item-inner::before {
+    content: counters(rootCounter, ".") ". ";
+    counter-increment: rootCounter;
+  }
+
+  /* container of the ohter headings. */
+  /* NOTE: It is not .outline anymore. So we need a new counter */
+  .tree-item-children {
+    counter-reset: innerCounter;
+  }
+
+  .tree-item-children .tree-item .tree-item-self .tree-item-inner::before {
+    content: counters(rootCounter, ".") "."counters(innerCounter, ".") ". ";
+    counter-increment: innerCounter;
+  }
+}
+

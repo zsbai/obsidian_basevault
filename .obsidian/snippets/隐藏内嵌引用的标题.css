@@ -1,0 +1,20 @@
+/* 隐藏嵌入引用中紧跟在头部信息后的第一个标题 */
+.markdown-embed-content .mod-header + .el-h1,
+.markdown-embed-content .mod-header + .el-h2,
+.markdown-embed-content .mod-header + .el-h3,
+.markdown-embed-content .mod-header + .el-h4,
+.markdown-embed-content .mod-header + .el-h5,
+.markdown-embed-content .mod-header + .el-h6 {
+    display: none !important;
+}
+
+/* 兼容性处理：如果没有 mod-header，则寻找预览区域内的第一个标题类 div */
+.markdown-embed-content .markdown-preview-section > div[class^="el-h"]:first-of-type {
+    display: none !important;
+}
+
+/* 移除嵌入框顶部的多余内边距 */
+.markdown-embed-content .markdown-preview-sizer {
+    padding-top: 0 !important;
+    min-height: unset !important;
+}
